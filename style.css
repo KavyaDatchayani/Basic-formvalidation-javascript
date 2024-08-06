@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.home {
+  height: 100vh;
+  padding: 20px;
+  background-color: #fff8f3;
+}
+
+.formSection {
+  margin: 20px auto;
+  width: 600px;
+  padding: 20px;
+  background-color: #f5ebe0;
+}
+
+.formSection h1 {
+  color: #ce5a67;
+  padding: 10px 0 10px;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #fcf5ed;
+  background-color: #fcf5ed;
+  outline: none;
+  color: #6c5f5b;
+}
+input:focus {
+  border: 2px solid #a98467;
+  border-width: 0 0 0 2px;
+  color: #1f1717;
+}
+p {
+  color: red;
+  font-size: 10px;
+}
+.signupbtn {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  background-color: #1f1717;
+  color: #fcf5ed;
+  box-shadow: 5px 4px #a98467;
+  font-weight: 500;
+  transition: all 0.5s ease;
+}
+.signupbtn:hover {
+  box-shadow: none;
+}
+.signupbtn:disabled {
+  background-color: white;
+  box-shadow: 5px 4px #ce5a67;
+}
+i {
+  padding: 0 5px;
+}
+@media (max-width: 720px) {
+  .home {
+    padding: 10px;
+  }
+  .formSection {
+    width: 250px;
+    padding: 10px;
+  }
+  .formSection h1 {
+    font-size: 17px;
+  }
+}

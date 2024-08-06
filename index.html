@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form validation</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="home">
+      <div class="formSection">
+        <form id="form">
+          <h1>SIGN UP</h1>
+          <input type="text" id="fname" placeholder="Name" required / >
+          <br />
+          <p id="firstname"></p>
+          <!-- <input type="text" id="lname" placeholder="Last Name" required />
+          <br />
+          <p id="lastname"></p> -->
+          <input type="email" id="email" placeholder="Email" required /> <br />
+          <p id="emailmessage"></p>
+          <input
+            type="text"
+            id="password"
+            placeholder="Set Password"
+            required
+          />
+          <br />
+          <p id="pwmessage"></p>
+          <input
+            type="text"
+            id="cpassword"
+            placeholder="Confrim Password"
+            required
+          />
+          <p id="cwmessage"></p>
+          <br />
+          <button
+            disabled="true"
+            id="submitbtn"
+            type="submit"
+            class="signupbtn"
+          >
+            <i class="fa fa-lock" aria-hidden="true"></i>Sign Up
+          </button>
+          <p id="validatem">*User need to fill the form for submission</p>
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
